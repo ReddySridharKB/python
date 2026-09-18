@@ -8,8 +8,8 @@ for number in numbers:
     if number % 2 == 0:
         continue
 
-    # Stop when number reaches 7
-    if number == 7:
+    # Stop when number reaches 8
+    if number == 8:
         break
 
     print("Number:", number)
