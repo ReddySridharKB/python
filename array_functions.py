@@ -33,3 +33,6 @@ arr1[2]= 18
 
 print(arr1)
 print(arr2)
+
+for n in numbers:
+    print(n)   
