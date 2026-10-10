@@ -2,8 +2,8 @@ def fact(num):
     res = 1
 
     for i in range(1, num + 1):
-        res *= i
+        res = res * i
     return res
 
-result  = fact(50)
+result  = fact(5)
 print(result)
