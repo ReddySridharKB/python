@@ -5,5 +5,5 @@ def fact(num):
         res *= i
     return res
 
-result  = fact(5)
+result  = fact(50)
 print(result)
