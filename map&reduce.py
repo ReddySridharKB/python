@@ -1,5 +1,7 @@
 from functools import reduce
 
+from distro import name
+
 def square(n):
     return n * n
 
@@ -15,3 +17,13 @@ print("Squares:", squares)
 # Using reduce()
 total = reduce(add, squares)
 print("Sum:", total)
+
+def uppercase(names):
+    return names.upper()
+
+names = ("manvi" , "sridha")
+
+result = list(map(uppercase, names))
+
+
+print(result)
