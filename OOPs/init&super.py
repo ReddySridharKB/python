@@ -1,21 +1,14 @@
-class Person:
-    def __init__(self, name):
+class Employee:
+    def __init__(self, name, salary):
         self.name = name
+        self.salary = salary
 
-    def show_name(self):
-        print("Name:", self.name)
+class manager(Employee):
+    def __init__(self, name, salary, department):
+        super().__init__(name, salary)
+        self.department = department
 
-
-class Student(Person):
-    def __init__(self, name, marks):
-        super().__init__(name)
-        self.marks = marks
-
-    def show_marks(self):
-        print("Marks:", self.marks)
-
-
-student1 = Student("Reddy", 90)
-
-student1.show_name()
-student1.show_marks()
+m1 = manager("John", 50000, "Sales")
+print(m1.name)
+print(m1.salary)
+print(m1.department)
