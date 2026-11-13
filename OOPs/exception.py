@@ -17,9 +17,9 @@ except Exception as e:
     print("Error:", e)
 
 else:
-    print("Division was successful.")
+    print(" else block: Division was successful.")
 
 finally:
-    print("Execution of the try-except block is complete.")
+    print("finally block: Execution of the try-except block is complete.")
 
 print("Program continues after handling the exception.")
